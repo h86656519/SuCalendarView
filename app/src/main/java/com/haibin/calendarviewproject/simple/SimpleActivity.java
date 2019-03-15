@@ -28,7 +28,7 @@ public class SimpleActivity extends BaseActivity implements
         CalendarView.OnCalendarSelectListener,
         CalendarView.OnYearChangeListener,
         View.OnClickListener {
-
+int aaa;
     TextView mTextMonthDay;
 
     TextView mTextYear;
