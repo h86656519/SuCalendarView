@@ -49,7 +49,7 @@ public class MainActivity extends BaseActivity implements
         View.OnClickListener {
 
     TextView mTextMonthDay;
-
+//9999
     TextView mTextYear;
 
     TextView mTextLunar;

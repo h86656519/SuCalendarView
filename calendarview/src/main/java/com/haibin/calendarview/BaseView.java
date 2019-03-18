@@ -270,7 +270,7 @@ public abstract class BaseView extends View implements View.OnClickListener, Vie
 
     void updateItemHeight() {
         //   this.mItemHeight = mDelegate.getCalendarItemHeight();
-        this.mItemHeight = 50; //suvini
+        this.mItemHeight = 130; //suvini 暫時將數字寫死
         Paint.FontMetrics metrics = mCurMonthTextPaint.getFontMetrics();
         mTextBaseLine = mItemHeight / 2 - metrics.descent + (metrics.bottom - metrics.top) / 2;
     }
